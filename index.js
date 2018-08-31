@@ -4,7 +4,7 @@ function printBadges (name) {
     console.log(`Welcome ${name[i]}! You are employee #${i + 1}.`);
   }
   return name;
-}
+};
 function tailsNeverFails(){
   let tails = 0;
   while (Math.random() >= 0.5) {
